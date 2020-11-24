@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px) {
+  .header {
+      height: 80px;
+      .logo{margin: 15px 20px;}
+      .hdr-title{left: 126px; top: 15px;}
+      .hdr-slogan{left: 126px; top:42px; font-size: 15px;}
+  }
+   
+    .lt-line{
+        width: 22% !important;
+    }
+    .fruits{
+        margin: 0 10px;
+        .card{flex-direction: column;}
+        img.card-img{
+            margin: 15px !important;
+        }
+        .card-copy{
+            margin-top: 0px;
+            padding:0 30px !important;
+            .card-title{   
+                line-height: 26px;
+                em{ font-size: 22px !important; 
+                    &::after {content: "\A"; white-space: pre;}
+                }
+            }
+            .card-body{padding-left: 0 !important; padding-right: 0 !important;}
+        }
+    }
+}
